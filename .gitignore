@@ -1,0 +1,10 @@
+### Node template
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Modules
+node_modules
+.next
