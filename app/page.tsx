@@ -4,7 +4,7 @@ import Gallery from "@/components/Gallery/index";
 
 export default function Home() {
   return (
-    <main>
+    <main className="p-5 bg-gradient-to-r-custom h-screen">
       <Gallery />
     </main>
   );
