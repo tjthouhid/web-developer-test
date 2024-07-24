@@ -1,0 +1,79 @@
+.gallery-section {
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 970px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: "__Inter_aaf875";
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 150px;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Specific widths for each image */
+.img1,
+.img2 {
+  max-width: 150px;
+}
+
+.img3 {
+  max-width: 280px;
+}
+
+.img4 {
+  max-width: 320px;
+}
+
+.img5 {
+  max-width: 240px;
+}
+
+.img6 {
+  max-width: 280px;
+}
+
+.img7 {
+  max-width: 230px;
+}
+
+.img8 {
+  max-width: 150px;
+}
+.button-sort {
+  background: #fff;
+  margin: 20px 0px 10px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.button-sort img {
+  width: 16px; /* Adjust the size of the icon */
+  height: 16px;
+}

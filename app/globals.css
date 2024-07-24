@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+
+main {
+  padding: 20px;
+  background: linear-gradient(to right, #ffc2fd 0%, #ff8ffc 100%);
+  height: 100vh;
+}
